@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "frontierinstallations:reinforced_bunker",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 16,
+    "separation": 5,
+    "salt": 710024,
+    "spread_type": "linear"
+  }
+}

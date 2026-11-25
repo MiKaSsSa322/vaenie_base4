@@ -1,0 +1,15 @@
+{
+  "name": "frontierinstallations:reinforced_bunker",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "frontierinstallations:reinforced_bunker",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

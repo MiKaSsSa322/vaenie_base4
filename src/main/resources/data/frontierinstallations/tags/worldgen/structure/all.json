@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "frontierinstallations:field_dugout",
+    "frontierinstallations:observation_post",
+    "frontierinstallations:small_camp",
+    "frontierinstallations:reinforced_bunker",
+    "frontierinstallations:fortified_camp",
+    "frontierinstallations:large_base"
+  ]
+}

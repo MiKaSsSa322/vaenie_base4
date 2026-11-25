@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="frontierinstallations"
+version="${file.jarVersion}"
+displayName="Frontier: Military Installations"
+authors="Frontier Installations"
+description='''
+A standalone Forge 1.20.1 mod adding naturally generated camps, field shelters,
+observation posts, reinforced bunkers and large installations built from vanilla blocks.
+'''
+
+[[dependencies.frontierinstallations]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.frontierinstallations]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"

@@ -1,0 +1,40 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+}
+
+group = 'com.frontierinstallations'
+version = mod_version
+
+base {
+    archivesName = 'frontier-military-installations'
+}
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(17)
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+}
+
+tasks.withType(org.gradle.language.jvm.tasks.ProcessResources).configureEach {
+    filesMatching('META-INF/mods.toml') {
+        expand 'file': [jarVersion: project.version]
+    }
+}
+
+jar {
+    manifest {
+        attributes([
+            'Specification-Title': 'frontierinstallations',
+            'Specification-Vendor': 'Frontier Installations',
+            'Specification-Version': '1',
+            'Implementation-Title': project.name,
+            'Implementation-Version': project.version
+        ])
+    }
+}

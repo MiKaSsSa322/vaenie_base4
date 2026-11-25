@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "frontierinstallations:small_camp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 10,
+    "separation": 3,
+    "salt": 710023,
+    "spread_type": "linear"
+  }
+}

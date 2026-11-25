@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "frontierinstallations:observation_post",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 6,
+    "separation": 2,
+    "salt": 710022,
+    "spread_type": "linear"
+  }
+}
